@@ -5,7 +5,11 @@ http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
 
 
+
+
 https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-ecmascript6
+
+http://exploringjs.com/es6/
 
 
 
