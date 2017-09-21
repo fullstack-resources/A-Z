@@ -6,4 +6,8 @@ https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know
 
 
 
+
+
+https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
+
 https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promises
