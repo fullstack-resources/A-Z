@@ -45,6 +45,10 @@ https://medium.com/javascript-scene/12-books-every-javascript-developer-should-r
 
 https://medium.com/friendship-dot-js/300-books-every-javascript-developer-must-read-in-2017-78b596ee5a52
 
+
+https://colorlib.com/wp/best-javascript-books/
+
+
 Tic-tac-toe Game in NativeScript
 http://www.blog.bdauria.com/?p=820
 
