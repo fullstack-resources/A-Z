@@ -39,7 +39,7 @@ https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promise
 
 
 
-
+https://ilikekillnerds.com/2015/03/things-every-javascript-developer-should-know/
 
 https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3
 
