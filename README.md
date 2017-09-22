@@ -46,6 +46,10 @@ https://medium.com/javascript-scene/12-books-every-javascript-developer-should-r
 https://medium.com/friendship-dot-js/300-books-every-javascript-developer-must-read-in-2017-78b596ee5a52
 
 
+https://medium.com/@wesharehoodies/best-courses-to-learn-javascript-in-2017-fc3a254638cc
+
+https://medium.com/coderbyte/50-resources-to-help-you-start-learning-javascript-in-2017-4c70b222a3b9
+
 https://colorlib.com/wp/best-javascript-books/
 
 
