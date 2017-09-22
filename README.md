@@ -43,6 +43,8 @@ https://ilikekillnerds.com/2015/03/things-every-javascript-developer-should-know
 
 https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3
 
+https://medium.com/friendship-dot-js/300-books-every-javascript-developer-must-read-in-2017-78b596ee5a52
+
 Tic-tac-toe Game in NativeScript
 http://www.blog.bdauria.com/?p=820
 
