@@ -43,6 +43,7 @@ https://benmccormick.org/2015/12/30/es6-patterns-converting-callbacks-to-promise
 
 https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3
 
-
+Tic-tac-toe Game in NativeScript
+http://www.blog.bdauria.com/?p=820
 
 
