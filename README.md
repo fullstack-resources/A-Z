@@ -57,3 +57,7 @@ Tic-tac-toe Game in NativeScript
 http://www.blog.bdauria.com/?p=820
 
 
+http://thoughtsonscripts.blogspot.com/2011/11/javascript-functional-or-object.html
+
+
+
