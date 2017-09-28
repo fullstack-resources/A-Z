@@ -61,3 +61,8 @@ http://thoughtsonscripts.blogspot.com/2011/11/javascript-functional-or-object.ht
 
 
 https://babeljs.io/learn-es2015/
+
+
+
+
+http://perfectionkills.com/the-poor-misunderstood-innerText/
