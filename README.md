@@ -66,3 +66,15 @@ https://babeljs.io/learn-es2015/
 
 
 http://perfectionkills.com/the-poor-misunderstood-innerText/
+
+https://en.wikipedia.org/wiki/KISS_principle
+
+https://circleci.com/
+
+https://travis-ci.org/
+
+https://jenkins.io/
+
+http://isomorphic.net/javascript
+
+https://www.sitepoint.com/javascript-modules-bundling-transpiling/
