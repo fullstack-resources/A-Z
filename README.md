@@ -78,3 +78,7 @@ https://jenkins.io/
 http://isomorphic.net/javascript
 
 https://www.sitepoint.com/javascript-modules-bundling-transpiling/
+
+
+
+http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
