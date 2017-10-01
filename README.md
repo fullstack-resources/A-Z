@@ -88,3 +88,6 @@ https://en.wikibooks.org/wiki/JavaScript
 
 
 http://domenlightenment.com/
+
+
+http://javascript.crockford.com/
