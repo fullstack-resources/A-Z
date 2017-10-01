@@ -82,3 +82,6 @@ https://www.sitepoint.com/javascript-modules-bundling-transpiling/
 
 
 http://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/
+
+
+https://en.wikibooks.org/wiki/JavaScript
