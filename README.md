@@ -96,7 +96,7 @@ http://javascript.crockford.com/
 
 
 
-
+https://code.tutsplus.com/tutorials/the-best-way-to-learn-javascript--net-21954
 
 https://trello.com/b/oinINq9f/learn-javascript-properly-experienced-programmers-roadmap
 
