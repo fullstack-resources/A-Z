@@ -91,3 +91,14 @@ http://domenlightenment.com/
 
 
 http://javascript.crockford.com/
+
+
+
+
+
+
+
+https://trello.com/b/oinINq9f/learn-javascript-properly-experienced-programmers-roadmap
+
+http://jstherightway.org/
+
