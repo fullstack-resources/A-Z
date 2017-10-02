@@ -102,3 +102,5 @@ https://trello.com/b/oinINq9f/learn-javascript-properly-experienced-programmers-
 
 http://jstherightway.org/
 
+
+https://www.designernews.co/stories/43271-best-way-to-really-learn-javascript
