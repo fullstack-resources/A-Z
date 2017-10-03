@@ -105,5 +105,3 @@ http://jstherightway.org/
 
 https://www.designernews.co/stories/43271-best-way-to-really-learn-javascript
 
-(need to download somehow I forgot)
-https://books.google.co.uk/books?id=LpctBAAAQBAJ&printsec=frontcover&dq=isbn:9781118531648&hl=en&cd=1&source=gbs_api#v=onepage&q&f=false
