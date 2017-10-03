@@ -105,3 +105,12 @@ http://jstherightway.org/
 
 https://www.designernews.co/stories/43271-best-way-to-really-learn-javascript
 
+
+
+
+
+
+
+http://www.javascripture.com
+
+
