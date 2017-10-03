@@ -118,6 +118,8 @@ http://www.javascripture.com
 https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c
 https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer
 
+(You may read just once)
+https://www.rubysteps.com/articles/2014/so-you-want-to-become-a-full-stack-developer/
 
 
 (need to download somehow)
