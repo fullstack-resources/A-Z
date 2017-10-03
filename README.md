@@ -118,4 +118,6 @@ http://www.javascripture.com
 
 
 (need to download somehow)
-https://www.skillshare.com/classes/JavaScript-Complete-Guide-to-learning-JavaScript/1391908967/projects
+https://www.skillshare.com/classes/JavaScript-Complete-Guide-to-learning-JavaScript/1391908967
+
+
