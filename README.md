@@ -116,7 +116,7 @@ http://www.javascripture.com
 
 (Must read _ later)
 https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c
-
+https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer
 
 
 
