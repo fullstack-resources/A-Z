@@ -114,6 +114,9 @@ https://www.designernews.co/stories/43271-best-way-to-really-learn-javascript
 http://www.javascripture.com
 
 
+(Must read _ later)
+https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c
+
 
 
 
