@@ -25,3 +25,19 @@ _colors.scss <---main.scss <-------------- app.js ----------->random.js
         |                                           |
         v                                           v
     main.css                                      bundle.js
+
+
+
+
+
+
+package.json scripts
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack js/app.js dist/bundle.js",
+    "build:prod": "webpack js/app.js dist/bundle.js -p",
+    "build:watch": "webpack-dev-server --entry ./js/app.js --output-filename ./dist/bundle.js",
+    "buildout": "webpack-dev-server",
+    "buildout:prod": "webpack -p"
+  },
