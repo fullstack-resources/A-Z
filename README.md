@@ -126,3 +126,6 @@ https://www.rubysteps.com/articles/2014/so-you-want-to-become-a-full-stack-devel
 https://www.skillshare.com/classes/JavaScript-Complete-Guide-to-learning-JavaScript/1391908967
 
 
+# React
+
+https://daveceddia.com/timeline-for-learning-react/
