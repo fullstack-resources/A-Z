@@ -129,3 +129,9 @@ https://www.skillshare.com/classes/JavaScript-Complete-Guide-to-learning-JavaScr
 # React
 
 https://daveceddia.com/timeline-for-learning-react/
+
+
+
+# Database Design
+
+https://www.codeproject.com/Articles/359654/important-database-designing-rules-which-I-fo
