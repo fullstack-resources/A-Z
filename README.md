@@ -135,3 +135,8 @@ https://daveceddia.com/timeline-for-learning-react/
 # Database Design
 
 https://www.codeproject.com/Articles/359654/important-database-designing-rules-which-I-fo
+
+
+# RESTApi
+
+https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-with-swagger
