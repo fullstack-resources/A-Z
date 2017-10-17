@@ -8,6 +8,7 @@ extract-text-webpack-plugin
 babel-core // for es6 to es5
 babel-loader // needs like sass-loader needs node-sass
 babel-preset-es2015 // es6 features
+url-loader // to use image in css
 
 
 _colors.scss <---main.scss <-------------- app.js ----------->random.js
