@@ -1,3 +1,7 @@
+npm init
+
+install dev dependency packages:
+
 webpack
 webpack-dev-server
 css-loader
