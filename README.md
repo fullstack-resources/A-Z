@@ -143,3 +143,52 @@ https://scotch.io/tutorials/speed-up-your-restful-api-development-in-node-js-wit
 
 
 https://www.upwork.com/hiring/development/15-node-js-frameworks-to-know/
+
+
+
+
+
+
+10 things to learn in javascript
+
+- How javascript works?
+- How to test javascript?
+- How to use chrome to your advantage?
+- What is JSON?
+- What is ajax?
+- Where to find answers to your questions?
+- Who invested javascript?
+- What is javascript library?
+- jQuery is still the most important library.
+- How to start learning javascript?
+
+
+Faster javascript with category theory?
+
+- Math is very important
+- jQuery is very popular
+- speed is sexy
+- context is useful
+- compose function
+function cmps(f,g) {
+return function(a) {
+return f(g(a));
+}
+}
+- identity
+-- object(html) // {HTMLElement}
+-- home(html)
+//@param {HTMLElement} elem
+//@returns {HTMLElement}
+function(elem){
+return elem;
+}
+-- object(jQuery)
+- functor
+-- html -> jquery
+--- ob(html) -> ob(jquery)
+--- hom(html) -> hom(jquery)
+--- F(f) o F(g) -> F(f o g)
+- invocation
+-- jquery(div)->removeAttribute('abc')->removeAttribute('xyz')
+--- jquery(div)->removeAttribute('abc xyz')
