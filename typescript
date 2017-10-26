@@ -119,3 +119,10 @@ tsc --module amd *.ts
 
 Declaration files: http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html
 
+
+
+Further Reading:
+Namespaces - http://www.typescriptlang.org/docs/handbook/namespaces.html
+Enums - http://www.typescriptlang.org/docs/handbook/enums.html
+Advanced Types and Type Guards - http://www.typescriptlang.org/docs/handbook/advanced-types.html
+Writing JSX in TypeScript - http://www.typescriptlang.org/docs/handbook/jsx.html
