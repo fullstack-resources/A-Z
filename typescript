@@ -1,0 +1,121 @@
+TypeScript: https://tutorialzine.com/2016/07/learn-typescript-in-30-minutes
+-----------------
+
+Install:
+npm install -g typescript
+
+Comilation:
+tsc main.ts other.ts
+
+Static Typing: http://www.typescriptlang.org/docs/handbook/basic-types.html
+var something:number = 32,
+	myString: string = 'my string';
+function someting(anything: any): void {
+	console.log('void is used as this function doesn\'t return anything');
+}
+
+Interface: http://www.typescriptlang.org/docs/handbook/interfaces.html
+interface Food {
+	name: string;
+	calories: number;
+}
+function speak(food: Food): void {
+	console.log("Our " + food.name + " has " + food.calories + " calories");
+}
+var ice_cream = {
+	name: "ice cream",
+	calories: 200
+};
+speak(ice_cream);
+
+
+Class: http://www.typescriptlang.org/docs/handbook/classes.html
+class Menu {
+	// properties can be public, private or protected
+	items: Array<string>; // or, string[]
+	pages: number;
+
+	constructor(item_list: Array<string>, total_pages: number) {
+		// `this` keyword is mandatory
+		this.items = item_list;
+		this.pages = total_pages;
+	}
+	//Methods
+	list(): void {
+		console.log("Our menu for today");
+		for(var i=0; i<this.items.length; i++) {
+		console.log(this.items[i]);
+		}
+	}
+}
+// Create a new instance of Menu class
+var sundayMenu = new Menu(["pancakes", "waffles", "orange juice"], 1);
+// Call the list method
+sundayMenu.list();
+
+// Inheritance: 
+class HappyMeal extends Menu {
+	// A new constructor has to be defined
+	constructor(item_list: Array<string>, total_pages: number) {
+		// super for parent constructor
+		super(item_list, total_pages);
+	}
+	// Overriding the method
+	list(): void {
+		console.log("Our special menu for the children");
+		for(var i=0; i<this.item_list.length; i++) {
+			console.log(this.items[i]);
+		}
+	}
+}
+// Create a new instance of HappyMeal class
+var menu_for_children = new HappyMeal(["candy", "drink", "toy"], 1);
+menu_for_children.list();
+
+Generics: http://www.typescriptlang.org/docs/handbook/generics.html
+Generics are templates that allow the same function to accept arguments of various different types. Creating reusable components using generics is better than using the any data type, as generics preserve the types of the variables that go in and out of them.
+
+// The <T> after the function name symbolizes that it's a generic function.
+// When we call the function, every instance of T will be replaced with the actual provided type.
+
+// Receives one argument of type T,
+// Returns an array of type T.
+function genericFunc<T>(argument: T): T[] {
+	var arrayOfT: T[] = []; // Create empty array of type T
+	arrayOfT.push(argument);
+	return arrayOfT;
+}
+
+var arrayFromString = genericFunc<string>("beep");
+console.log(arrayFromString[0]); // "beep"
+console.log(typeof arrayFromString[0]); // string
+
+var arrayFromNumber = genericFunc(42);
+console.log(arrayFromNumber[0]); // 42
+console.log(typeof arrayFromNumber); // number
+
+The first time we called the function we manually set the type to string. This isn't required as the compiler can see what argument has been passed and automatically decide what type suits it best, like in the second call. Although it's not mandatory, providing the type every time is considered good practice as the compiler might fail to guess the right type in more complex scenarios.
+
+
+Modules: http://www.typescriptlang.org/docs/handbook/modules.html
+TypeScript introduces a syntax for exporting and importing modules, but cannot handle the actual wiring between files. To enable external modules TS relies on third-party libraries: require.js for browser apps and CommonJS for Node.js. Let's take a look at a simple example of TypeScript modules with require.js:
+
+exporter.ts
+-
+var sayHi = function(): void {
+	console.log("Hello!");
+}
+export = sayHi;
+
+importer.ts
+-
+import sayHi = require('./exporter');
+sayHi();
+
+Now we need to download require.js and include it in a script tag - see how here. The last step is to compile our two .ts files. An extra parameter needs to be added to tell TypeScript that we are building modules for require.js (also referred to as AMD), as opposed to CommonJS ones.
+
+tsc --module amd *.ts
+
+
+Declaration files: http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html
+
