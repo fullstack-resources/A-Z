@@ -11,6 +11,8 @@ https://www.pluralsight.com/guides/front-end-javascript/getting-started-with-ecm
 
 http://exploringjs.com/es6/
 
+https://ponyfoo.com/articles/es6
+
 
 
 https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/
