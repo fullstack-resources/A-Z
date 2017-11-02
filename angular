@@ -18,3 +18,36 @@ Shims, Pollyfills and Core-js
 Zone.js
 Reflect-Metadata
 
+
+
+
+DAY 1
+
+TypeScript fundamentals
+Setup and Tooling
+Getting started with the Angular CLI
+Introduction to Angular
+Structure of an app
+The Components Model
+Decorators, Templating Syntax, Data Binding, Directives, Input/Output, Events, Pipes
+Dependency Injection, Services and providers
+Introduction to Reactive Programming with RxJS (Observables)
+Async Requests to a REST API (HTTP)
+Implementing a local cache
+Debugging an application
+
+DAY 2
+
+Implementing pagination, sorting and filtering on a grid
+Creating a Custom pipe
+NgModules, Ahead-of-time compilation and Tree Shaking
+Deploying to production
+Navigation and Routing
+Lazy-loading
+Forms and Validation
+Using Http to Update or Delete data on the server
+Authentication
+Login screen, Login Service
+Protecting a Route with Route Guards
+Global Error Handling
+Best Practices!
