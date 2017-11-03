@@ -98,6 +98,15 @@ RouterModule.forRoot([
 - Active Links
 <li routerLinkActive="active current"><a routerLink="/somepath">somepath</a></li>
 <li routerLinkActive="active current"><a routerLink="/somepath2">somepath2</a></li>
-
-
+- Accessing route parameters
+(/users/:id)
+Inside component class constructor:
+Construcor(private route: ActivatedRoute){}
+this.route.paramMap.subscribe(params=>{
+  console.log(params);
+  let id = +params.get('id');
+  // service.getProfile(id);
+  console.log(id);
+});
+- 
 
