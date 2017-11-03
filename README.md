@@ -194,3 +194,10 @@ return elem;
 - invocation
 -- jquery(div)->removeAttribute('abc')->removeAttribute('xyz')
 --- jquery(div)->removeAttribute('abc xyz')
+
+
+
+
+
+https://stackoverflow.com/questions/47102528/do-we-need-variable-declaration-using-for-of-for-in-loops
+https://stackoverflow.com/questions/44606868/difference-between-let-and-var-inside-settimeout
