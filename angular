@@ -93,8 +93,11 @@ RouterModule.forRoot([
 ])
 - Add a router outlet
 - Router Link
-<a routerLink="/users">
+<a routerLink="/users"> -- simple routes, string values
 <a [routerLink]="['users',user.id]"> -- property binding is used for parameters
+- Active Links
+<li routerLinkActive="active current"><a routerLink="/somepath">somepath</a></li>
+<li routerLinkActive="active current"><a routerLink="/somepath2">somepath2</a></li>
 
 
 
