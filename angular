@@ -70,3 +70,27 @@ Best Practices!
 
 https://coryrylan.com/blog/introduction-to-angular-routing
 https://vsavkin.com/angular-router-understanding-router-state-7b5b95a12eab
+
+
+
+# angular routing and navigation
+https://www.youtube.com/watch?v=tUCa3JcFILI
+Steps:
+- Configure the routes
+RouterModule.forRoot([
+{
+  path: '/',
+  component: HomeComponent
+},
+{
+  path: '/users/:id',
+  component: UserComponent
+},
+{
+  path: '**',
+  component: ErrorComponent
+}
+])
+- Add a router outlet
+
+- 
