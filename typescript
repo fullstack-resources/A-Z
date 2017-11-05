@@ -295,5 +295,16 @@ set x(value) {
 }
 // point.X //(get), point.x = 20 //(set)
 
+Modules
+point.ts
+export class Point {
+...
+}
+main.ts
+import { Point } from './point';
+new Point(...);
+
+
+
 
 
