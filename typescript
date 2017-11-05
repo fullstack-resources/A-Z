@@ -180,6 +180,11 @@ node main.js
 // Running on the same time
 tsc main.ts | node main.js
 
+Type Assertions
+let message; // any
+message = 'abc'; //^^ // string
+let endsWithC = (<string>message).endsWith('c'); // string
+let alternativeWay = (message as string).endsWith('c'); // string
 
 
 
