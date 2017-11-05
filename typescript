@@ -175,6 +175,8 @@ Great Tooling
 
 Transpile to JavaScript
 tsc main.ts
+// Now, run
+node main.js
 
 
 
