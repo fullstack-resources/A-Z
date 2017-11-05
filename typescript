@@ -234,8 +234,33 @@ drawPoint({
  point.draw(); // 1, 2
  
  tsc main.ts && main.js
- 
- 
+
+// TODO: point.w, point.z
+// Constructor:
+class Point {
+   x: number;
+   y: number;
+   constructor(x: number, y?: number) {
+    // y is optional
+    this.x = x;
+    this.y = y;
+   }
+   draw(){
+     console.log(this.x, this.y);
+   }
+   getDistance(another: Point){
+   // ...
+   }
+ }
+// Now, new Point(1);// notice y is optional
+// After initialization ie. after new Point(...):
+point.x = 3;
+// Then how, we need access modifiers: (public, private, protected)
+class Point {
+   private x: number;
+ ...
+ // Then,
+ point.x // error
  
 
 
