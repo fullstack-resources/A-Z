@@ -177,7 +177,8 @@ Transpile to JavaScript
 tsc main.ts
 // Now, run
 node main.js
-
+// Running on the same time
+tsc main.ts | node main.js
 
 
 
