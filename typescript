@@ -273,6 +273,27 @@ class Point {
     // this.x // points to the constructor / class Point x
   }
 
+// But,
+let point = new Point(1,2);
+point.x // is not accessible (I think this is for private props, need to try and test and confirm using public)
+
+// To do this:
+getX() { // inside the class
+  return this.x;
+}
+
+// only then, you can access:
+let x = point.getX();
+
+// Or, just use get or set method:
+// ... private _x instead of private x: ...
+get x() { // so is different
+...
+}
+set x(value) {
+...
+}
+// point.X //(get), point.x = 20 //(set)
 
 
 
