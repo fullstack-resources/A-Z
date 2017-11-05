@@ -173,6 +173,8 @@ Object oriented features
 Compile time errors
 Great Tooling
 
+Transpile to JavaScript
+tsc main.ts
 
 
 
