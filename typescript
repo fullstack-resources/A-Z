@@ -197,6 +197,45 @@ let log = (message) => {
 ==
 let log = (message) => console.log(message);
 
-
+Custom Types
+let drawPoint = (point: {x: number, y: number}) => {
+  // ...
+};
+drawPoint({
+  x: 1,
+  y: 2
+ });
+ If you have defined like this: (point) =>, then you can have use anything in drawPoint like this: drawPoint({name:'Bhojendra', age:32})
+ 
+ Or, interface:
+ interface Point {
+   x: number,
+   y: number
+ }
+ let drawPoint = (point: Point) => { ... }
+ 
+ But, there's a problem with the interface called cohesion:
+ let getDistance = (pointA: Point, pointB: Point) => { ... }
+ 
+ Using class:
+ class Point {
+   x: number;
+   y: number;
+   draw(){
+     console.log(this.x, this.y);
+   }
+   getDistance(another: Point){
+   // ...
+   }
+ }
+ let point = new Point();
+ point.x = 1;
+ point.y = 2;
+ point.draw(); // 1, 2
+ 
+ tsc main.ts && main.js
+ 
+ 
+ 
 
 
