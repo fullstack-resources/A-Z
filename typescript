@@ -262,5 +262,17 @@ class Point {
  // Then,
  point.x // error
  
+Using typescript:
+class Point {
+  // no need to define access modifier props
+  // just use in constructor
+  constructor(private x: number, private y?: optional) {
+  // Also, we didn't need now this.x, this.y...
+  }
+  draw() {
+    // this.x // points to the constructor / class Point x
+  }
+
+
 
 
