@@ -186,5 +186,17 @@ message = 'abc'; //^^ // string
 let endsWithC = (<string>message).endsWith('c'); // string
 let alternativeWay = (message as string).endsWith('c'); // string
 
+Arrow Functions
+let log = function(message){
+  console.log(message);
+};
+==
+let log = (message) => {
+  console.log(message);
+};
+==
+let log = (message) => console.log(message);
+
+
 
 
