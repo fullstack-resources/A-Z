@@ -1,3 +1,5 @@
+https://quickleft.com/blog/six-reasons-we-split-front-end-and-back-end-code-into-two-git-repositories-working-with-github-repositories/
+
 https://stackoverflow.com/questions/28374151/swift-when-should-i-use-var-instead-of-let
 
 http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
