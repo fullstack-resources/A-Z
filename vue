@@ -4,3 +4,4 @@ https://router.vuejs.org/en/essentials/getting-started.html
 https://hackernoon.com/5-free-vuejs-tutorials-3caa8ff865e9
 https://www.sitepoint.com/up-and-running-vue-js-2-0/
 https://matthiashager.com/complete-vuejs-application-tutorial
+https://alligator.io/vuejs/rest-api-axios/
