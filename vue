@@ -5,3 +5,8 @@ https://hackernoon.com/5-free-vuejs-tutorials-3caa8ff865e9
 https://www.sitepoint.com/up-and-running-vue-js-2-0/
 https://matthiashager.com/complete-vuejs-application-tutorial
 https://alligator.io/vuejs/rest-api-axios/
+
+
+
+
+https://stackoverflow.com/questions/43277705/vuejs-difference-between-computed-and-watched-properties
