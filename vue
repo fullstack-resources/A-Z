@@ -11,3 +11,6 @@ https://alligator.io/vuejs/rest-api-axios/
 
 https://stackoverflow.com/questions/43277705/vuejs-difference-between-computed-and-watched-properties
 https://codingexplained.com/coding/front-end/vue-js/watchers
+
+
+https://github.com/vuejs/awesome-vue
