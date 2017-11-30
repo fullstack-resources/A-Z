@@ -23,3 +23,6 @@ https://github.com/vuejs/awesome-vue
 https://github.com/DivanteLtd/vue-storefront
 https://www.figma.com/file/VKyqbHFI55TKIKcQlFLiVpVF/Vue-Storefront---Open-Source
 https://www.themexpert.com/blog/vuejs-admin-templates-with-bootstrap
+
+
+https://medium.com/the-vue-point
