@@ -4,3 +4,82 @@ https://github.com/daviddguedes/firebase-admin-adonisjs
 https://youtu.be/8K3tp5R-3Os
 
 https://github.com/ammezie/adonis-tasks
+
+
+
+
+...expenses_schema.js // Migration
+
+'use strict'
+
+const Schema = use('Schema')
+
+class ExpensesSchema extends Schema {
+  up () {
+    this.create('expenses', (table) => {
+      table.increments()
+      table.date('date')
+      table.string('item')
+      table.float('amount')
+    })
+  }
+
+  down () {
+    this.drop('expenses')
+  }
+}
+
+module.exports = ExpensesSchema
+
+
+
+routes.js // Routes
+
+'use strict'
+
+const Route = use('Route')
+
+Route.get('/', ({ request }) => {
+  return { greeting: 'Hello world in JSON' }
+})
+Route.post('/expense','ExpenseController.store')
+
+
+
+ExpenseController.js // Controller
+
+'use strict'
+
+const Expense = use('App/Models/Expense')
+
+class ExpenseController {
+ async store ({ request, response, session }) {
+  const exp = new Expense()
+  exp.date = request.input('date')
+  exp.item = request.input('item')
+  exp.amount = request.input('amount')
+  await exp.save()
+  return response.send(exp);
+ }
+}
+
+module.exports = ExpenseController
+
+
+
+Expense.js // Model
+
+'use strict'
+
+const Model = use('Model')
+
+class Expense extends Model {
+ static get createdAtColumn () {
+  return false
+ }
+ static get updatedAtColumn () {
+  return false
+ }
+}
+
+module.exports = Expense
