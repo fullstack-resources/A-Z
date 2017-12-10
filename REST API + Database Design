@@ -6,3 +6,61 @@ https://www.lucidchart.com/pages/database-diagram/database-design
 https://www.codeproject.com/Articles/359654/important-database-designing-rules-which-I-fo
 https://www.red-gate.com/simple-talk/sql/database-administration/ten-common-database-design-mistakes/
 http://database-programmer.blogspot.com/2010/11/database-skills.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:-
+MODULE – I
+Introduction to Database Systems and its Applications
+Database System Architecture
+Data Abstraction, Data Independence
+Data Models – Network, Hierarchical and Relational Data Models
+Data Models – Relational and Object Oriented Data Models
+Entity Relationship (ER) Model
+Mapping ER Model to Relational Model
+Data Definitions Languages
+Data Manipulation Languages
+Integrity Constraints and Data Manipulation Operations
+MODULE – II
+Relation Query Language, Fundamental Relation Algebra Operations
+Extended Relation Algebra Operations
+Tuple and Domain Relational Calculus
+SQL
+QBE, Domain and Data Dependency
+Armstrong’s Axioms, Dependency Preservation, Lossless Design
+Normal Forms – 1NF, 2NF, 3NF, BCNF
+Higher Normal Forms – 4NF, 5NF, Comparison of Oracle and DB2
+MODULE – III
+Introduction to Query Processing
+Translating SQL Queries into Relational Algebra
+Algorithms for External Sorting
+LAlgorithms for SELECT and JOIN Operations
+Algorithms for PROJECT and SET Operations
+Query Equivalence, Join Strategies
+Overview of Query Optimization
+Query Optimization Algorithms
+MODULE – IV
+LStorage Strategies – Indices, B-Trees
+Storage Strategies – Hashing
+Introduction to Transaction Processing, Transaction and System Concepts
+Desirable Properties of Transactions
+Schedules and Recoverability
+Serializability of Schedules
+Locking Techniques for Concurrency Control, Time-stamp based schedules
+Multi-version and Optimistic Concurrency Control Schemes
+Database Recovery Techniques
+Advanced Topics – Object-Oriented and Object Relational Databases, Logical Database
+Advanced Topics – Web Databases, Distributed Databases
+Advanced Topics – Data Warehouse and Data Mining
