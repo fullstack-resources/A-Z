@@ -156,6 +156,7 @@ multi tenant rest api design:
 
 https://youtu.be/5WXYw4J4QOU
 http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+https://stackoverflow.com/questions/15051712/how-to-do-authentication-with-a-rest-api-right-browser-native-clients
 https://crosp.net/blog/web/nodejs/creating-secure-api-using-nodejs-resful-authentication/
 https://crosp.net/blog/web/nodejs/secure-rest-api-using-nodejs-part-2-express-jwt-mongoose/
 https://www.quora.com/What-is-the-best-way-of-session-management-in-REST-architecture
