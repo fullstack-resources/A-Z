@@ -149,3 +149,14 @@ https://stackoverflow.com/questions/13761336/rest-api-with-multi-tenant-database
 https://groups.google.com/forum/#!msg/api-craft/sPO6hp59ZTI/A3avOD9pSVwJ
 
 http://www.software-architects.com/content/images/blog/2015/09/RESTful%20Web%20API%20Design.pdf
+
+
+
+multi tenant rest api design:
+
+https://youtu.be/5WXYw4J4QOU
+https://www.airpair.com/firebase/posts/yatodo-guide
+https://dzone.com/storage/temp/7148978-screen-shot-2017-11-07-at-105850-am.png (multiple databases)
+
+https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/web-api
+https://dev.jamasoftware.com/rest#endpoint_users
