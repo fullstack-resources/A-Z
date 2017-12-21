@@ -200,7 +200,8 @@ http://django-rest-auth.readthedocs.io/en/latest/api_endpoints.html
 https://adonisjs.com/docs/3.2/authentication
 https://auth0.com/blog/creating-your-first-app-with-adonisj-and-adding-authentication/
 https://github.com/dwyl/learn-json-web-tokens
-
+Most Important Most Important:
+https://www.sitepoint.com/how-to-build-an-api-only-jwt-powered-laravel-app/
 
 
 Might be interested:
@@ -238,7 +239,7 @@ https://www.owasp.org/index.php/Authentication_Cheat_Sheet
 https://stackoverflow.com/questions/290951/best-practices-for-web-login-authentication
 
 
-
+https://stackoverflow.com/questions/19242128/design-a-restful-authentication-api
 
 
 
