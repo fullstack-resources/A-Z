@@ -288,6 +288,12 @@ Some kind of help:
 http://haseydesign.com/flexi-auth/auth_lite/demo/
 https://github.com/denali-js/denali-auth/blob/master/ARCHITECTURE.md
 
+Hmmm, most: found from https://github.com/ibm-cloud-architecture/refarch-cloudnative-auth
+GET /oauth/authorize
+POST /oauth/token
+
+https://tools.ietf.org/html/rfc6749
+
 
 
 
