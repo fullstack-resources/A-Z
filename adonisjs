@@ -83,3 +83,12 @@ class Expense extends Model {
 }
 
 module.exports = Expense
+
+
+
+
+
+
+
+Adonis Schema: node_modules/@adonisjs/lucid/src/Schema/index.js
+http://knexjs.org/#Schema
