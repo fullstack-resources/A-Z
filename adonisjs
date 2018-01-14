@@ -92,3 +92,8 @@ module.exports = Expense
 
 Adonis Schema: node_modules/@adonisjs/lucid/src/Schema/index.js
 http://knexjs.org/#Schema
+
+
+
+To update to a default value:
+UPDATE tokens SET `expired_at` = DEFAULT(`expired_at`);
