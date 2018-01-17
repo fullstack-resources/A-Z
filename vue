@@ -44,7 +44,7 @@ https://medium.com/the-vue-point
 
 
 
-#some important notes:
+# some important notes:
 
 Vue does not allow dynamically adding new root-level reactive properties to an already created instance. However, it’s possible to add reactive properties to a nested object using the Vue.set(object, key, value) method. For example, given:
 var vm = new Vue({
@@ -56,6 +56,20 @@ var vm = new Vue({
 })
 You could add a new age property to the nested userProfile object with:
 Vue.set(vm.userProfile, 'age', 27)
+
+You can also use the vm.$set instance method, which is an alias for the global Vue.set:
+vm.$set(this.userProfile, 'age', 27)
+Sometimes you may want to assign a number of new properties to an existing object, for example using Object.assign() or _.extend(). In such cases, you should create a fresh object with properties from both objects. So instead of:
+Object.assign(this.userProfile, {
+  age: 27,
+  favoriteColor: 'Vue Green'
+})
+You would add new, reactive properties with:
+this.userProfile = Object.assign({}, this.userProfile, {
+  age: 27,
+  favoriteColor: 'Vue Green'
+})
+
 
 
 
