@@ -26,3 +26,36 @@ https://www.themexpert.com/blog/vuejs-admin-templates-with-bootstrap
 
 
 https://medium.com/the-vue-point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#some important notes:
+
+Vue does not allow dynamically adding new root-level reactive properties to an already created instance. However, it’s possible to add reactive properties to a nested object using the Vue.set(object, key, value) method. For example, given:
+var vm = new Vue({
+  data: {
+    userProfile: {
+      name: 'Anika'
+    }
+  }
+})
+You could add a new age property to the nested userProfile object with:
+Vue.set(vm.userProfile, 'age', 27)
+
+
+
