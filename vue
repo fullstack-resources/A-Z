@@ -75,3 +75,7 @@ this.userProfile = Object.assign({}, this.userProfile, {
 
 
 
+
+(Under Binding Native Events to Components)
+I was not getting to the point for .native modifier. But this post clears (note the the emitted event "click" and then you'll understand why to use .native modifier)
+https://stackoverflow.com/questions/47729497/why-vuejs-introduce-native-event-modifier-what-are-the-use-case-of-this-vu
