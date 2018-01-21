@@ -27,7 +27,7 @@ https://www.themexpert.com/blog/vuejs-admin-templates-with-bootstrap
 
 https://medium.com/the-vue-point
 
-
+https://medium.com/corebuild-software/understanding-scoped-slots-in-vue-js-db5315a42391
 
 
 
