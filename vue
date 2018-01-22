@@ -31,8 +31,7 @@ https://medium.com/corebuild-software/understanding-scoped-slots-in-vue-js-db531
 
 
 https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4
-
-
+(In short: Use Axios)
 
 
 
