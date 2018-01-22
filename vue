@@ -30,7 +30,7 @@ https://medium.com/the-vue-point
 https://medium.com/corebuild-software/understanding-scoped-slots-in-vue-js-db5315a42391
 
 
-
+https://medium.com/the-vue-point/retiring-vue-resource-871a82880af4
 
 
 
